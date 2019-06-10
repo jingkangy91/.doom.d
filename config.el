@@ -3,16 +3,20 @@
 ;; Place your private configuration here
 
 ;; Set packages archives
+;; https://elpa.emacs-china.org/
 (setq packages-archives
       '(("melpa-cn" . "http://elpa.emacs-china.org/melpa/")
         ("org-cn"   . "http://elpa.emacs-china.org/org/")
         ("gnu-cn"   . "http://elpa.emacs-china.org/gnu/")))
 
 ;; Set default frame fullscreen
+;; https://emacs.stackexchange.com/questions/2999/how-to-maximize-my-emacs-frame-on-start-up
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;; Fonts settings
+;; https://github.com/hlissner/doom-emacs/wiki/Customization
 ;; (setq doom-font (font-spec :family "Fira Code" :size 14))
+;; https://emacs-china.org/t/doom-emacs/6967
 (setq
       doom-font (font-spec :family "DejaVu Sans Mono" :size 14)
       doom-variable-pitch-font (font-spec :family "DejaVu Sans Mono")
@@ -20,13 +24,19 @@
       doom-big-font (font-spec :family "DejaVu Sans Mono" :size 16))
 
 ;; Configure fcitx
+;; https://github.com/cute-jumper/fcitx.el
+;; https://github.com/xcodebuild/fcitx-remote-for-osx
 (fcitx-aggressive-setup)
 
 ;; Python Anancoda
+;; https://github.com/hlissner/doom-emacs/issues/212
 (setq python-shell-interpreter "~/.local/anaconda3/bin/python"
       flycheck-python-pycompile-executable "~/.local/anaconda3/bin/python")
 
 ;; Configure LaTeX
+;; http://www.latexstudio.net/archives/51493.html
+;; https://blog.csdn.net/bleedingfight/article/details/84946793
+;; https://www.cnblogs.com/SunSmileCS/archive/2013/02/22/2923002.html
 (add-hook 'LaTeX-mode-hook
       (lambda ()
         (add-to-list 'TeX-command-list
