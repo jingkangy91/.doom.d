@@ -38,17 +38,18 @@
 ;; http://www.latexstudio.net/archives/51493.html
 ;; https://blog.csdn.net/bleedingfight/article/details/84946793
 ;; https://www.cnblogs.com/SunSmileCS/archive/2013/02/22/2923002.html
+;; https://tex.stackexchange.com/questions/54739/reftex-wont-find-my-bib-file-in-local-library-tree
 (add-hook 'LaTeX-mode-hook
       (lambda ()
-        (add-to-list 'TeX-command-list
-                     '("LatexMk" "latexmk %s" TeX-run-TeX nil t
-                       :help "Run latexmk on file"))
+            (add-to-list 'TeX-command-list
+                  '("LatexMk" "latexmk %s" TeX-run-TeX nil t
+                        :help "Run latexmk on file"))
             (setq TeX-auto-untabify t     ; remove all tabs before saving
                   TeX-engine 'xetex       ; use xelatex default
                   ;; TeX-show-compilation t    ;; display compilation windows
-                  turn-on-auto-fill t
-            )
+                  turn-on-auto-fill t)
             (TeX-global-PDF-mode t)       ; PDF mode enable, not plain
             (setq TeX-save-query nil)
+            ;; (setq reftex-default-bibliography '("~/MEGA/Tongji/Thesis/0_Dissertation/ref/ref.bib"))
             (imenu-add-menubar-index)
             (define-key LaTeX-mode-map (kbd "TAB") 'TeX-complete-symbol)))
