@@ -27,7 +27,9 @@
 ;; https://github.com/cute-jumper/fcitx.el
 ;; https://github.com/xcodebuild/fcitx-remote-for-osx
 (fcitx-aggressive-setup)
-(fcitx-prefix-keys-add "SPC")
+;; Something wrong with fcitx-remote
+;; (fcitx-prefix-keys-add "SPC")
+;; (fcitx-prefix-keys-turn-on)
 
 ;; Python Anancoda
 ;; https://github.com/hlissner/doom-emacs/issues/212
