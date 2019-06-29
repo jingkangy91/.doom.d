@@ -23,11 +23,17 @@
       doom-unicode-font (font-spec :family "DejaVu Sans Mono")
       doom-big-font (font-spec :family "DejaVu Sans Mono" :size 16))
 
+;; Set shell configuration
+;; https://www.jianshu.com/p/4d81b7e32bff
+;; set shell to bash for fcitx-remote
+;; (setq shell-file-name "bash")
+
 ;; Configure fcitx
 ;; https://github.com/cute-jumper/fcitx.el
 ;; https://github.com/xcodebuild/fcitx-remote-for-osx
 (fcitx-aggressive-setup)
-;; Something wrong with fcitx-remote
+;; Below command is wrong with fish, fcitx-remote in Mac, so comment
+;; https://www.jianshu.com/p/4d81b7e32bff
 ;; (fcitx-prefix-keys-add "SPC")
 ;; (fcitx-prefix-keys-turn-on)
 

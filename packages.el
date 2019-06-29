@@ -7,4 +7,5 @@
 ;; (package! builtin-package :disable t)
 
 ;;; Code:
-(package! fcitx)
+;; Package fcitx is already provided in Chinese.
+;; (package! fcitx)
