@@ -39,8 +39,8 @@
 
 ;; Python Anancoda
 ;; https://github.com/hlissner/doom-emacs/issues/212
-(setq python-shell-interpreter "~/.local/anaconda3/bin/python"
-      flycheck-python-pycompile-executable "~/.local/anaconda3/bin/python")
+(setq python-shell-interpreter "/usr/local/anaconda3/bin/python"
+      flycheck-python-pycompile-executable "/usr/local/anaconda3/bin/python")
 
 ;; Configure LaTeX
 ;; http://www.latexstudio.net/archives/51493.html
