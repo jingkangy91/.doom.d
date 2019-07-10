@@ -8,4 +8,4 @@
 
 ;;; Code:
 ;; Package fcitx is already provided in Chinese.
-;; (package! fcitx)
+(package! fcitx)

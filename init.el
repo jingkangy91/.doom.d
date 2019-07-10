@@ -9,7 +9,7 @@
 ;; found in modules/README.org.
 
 (doom! :input
-       chinese
+       ;;chinese
        ;;japanese
 
        :completion
@@ -56,8 +56,8 @@
 
        :emacs
        (dired            ; making dired pretty [functional]
-       +ranger         ; bringing the goodness of ranger to dired
-       +icons          ; colorful icons for dired-mode
+       ;;+ranger         ; bringing the goodness of ranger to dired
+       ;;+icons          ; colorful icons for dired-mode
         )
        electric          ; smarter, keyword-based electric-indent
        vc                ; version-control and Emacs, sitting in a tree
@@ -73,10 +73,10 @@
        ;;direnv
        ;;docker
        ;;editorconfig      ; let someone else argue about tabs vs spaces
-       ein               ; tame Jupyter notebooks with emacs
+       ;;ein               ; tame Jupyter notebooks with emacs
        eval              ; run code, run (also, repls)
        flycheck          ; tasing you for every semicolon you forget
-       flyspell          ; tasing you for misspelling mispelling
+       ;;flyspell          ; tasing you for misspelling mispelling
        ;;gist              ; interacting with github gists
        (lookup           ; helps you navigate your code and documentation
         +docsets)        ; ...or in Dash docsets locally
@@ -89,7 +89,7 @@
        ;;prodigy           ; FIXME managing external services & code builders
        ;;rgb               ; creating color strings
        ;;terraform         ; infrastructure as code
-       tmux              ; an API for interacting with tmux
+       ;;tmux              ; an API for interacting with tmux
        ;;upload            ; map local to remote projects via ssh/ftp
        ;;wakatime
 
@@ -137,7 +137,7 @@
        ;;qt                ; the 'cutest' gui framework ever
        ;;racket            ; a DSL for DSLs
        ;;rest              ; Emacs as a REST client
-       ruby              ; 1.step {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
+       ;;ruby              ; 1.step {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
        ;;rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
        ;;scala             ; java, but good
        sh                ; she sells {ba,z,fi}sh shells on the C xor

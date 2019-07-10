@@ -37,6 +37,15 @@
 ;; (fcitx-prefix-keys-add "SPC")
 ;; (fcitx-prefix-keys-turn-on)
 
+;; Org agenda settings
+;; (setq org-agenda-files (list "~/MEGA/Org/gtd.org"
+                             ;; "~/MEGA/Org/english.org"
+                             ;; "~/MEGA/Tongji/Org/tongji.org"))
+(setq org-agenda-files (list "~/MEGA/Tongji/Org/tongji.org"))
+
+;; Dired mode settings
+;; (put 'dired-find-alternate-file 'disabled nil)
+
 ;; Python Anancoda
 ;; https://github.com/hlissner/doom-emacs/issues/212
 (setq python-shell-interpreter "/usr/local/anaconda3/bin/python"
