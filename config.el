@@ -12,6 +12,11 @@
 ;; Set default frame fullscreen
 ;; https://emacs.stackexchange.com/questions/2999/how-to-maximize-my-emacs-frame-on-start-up
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
+;; (evil-window-vsplit)
+;; (next-multiframe-window)
+;; (find-file "~/.doom.d/config.el")
+;; (org-agenda)
+;; (dired "~")
 
 ;; Fonts settings
 ;; https://github.com/hlissner/doom-emacs/wiki/Customization
