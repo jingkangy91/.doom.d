@@ -9,6 +9,9 @@
         ("org-cn"   . "http://elpa.emacs-china.org/org/")
         ("gnu-cn"   . "http://elpa.emacs-china.org/gnu/")))
 
+;; Load theme
+(load-theme 'doom-gruvbox t)
+
 ;; Set default frame fullscreen
 ;; https://emacs.stackexchange.com/questions/2999/how-to-maximize-my-emacs-frame-on-start-up
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
@@ -22,11 +25,16 @@
 ;; https://github.com/hlissner/doom-emacs/wiki/Customization
 ;; (setq doom-font (font-spec :family "Fira Code" :size 14))
 ;; https://emacs-china.org/t/doom-emacs/6967
+;; (setq
+;;       doom-font (font-spec :family "DejaVu Sans Mono" :size 14)
+;;       doom-variable-pitch-font (font-spec :family "DejaVu Sans Mono")
+;;       doom-unicode-font (font-spec :family "DejaVu Sans Mono")
+;;       doom-big-font (font-spec :family "DejaVu Sans Mono" :size 16))
 (setq
-      doom-font (font-spec :family "DejaVu Sans Mono" :size 14)
-      doom-variable-pitch-font (font-spec :family "DejaVu Sans Mono")
-      doom-unicode-font (font-spec :family "DejaVu Sans Mono")
-      doom-big-font (font-spec :family "DejaVu Sans Mono" :size 16))
+      doom-font (font-spec :family "DroidSansMono Nerd Font" :size 14)
+      doom-variable-pitch-font (font-spec :family "DroidSansMono Nerd Font")
+      doom-unicode-font (font-spec :family "DroidSansMono Nerd Font")
+      doom-big-font (font-spec :family "DroidSansMono Nerd Font" :size 16))
 
 ;; Set shell configuration
 ;; https://www.jianshu.com/p/4d81b7e32bff
