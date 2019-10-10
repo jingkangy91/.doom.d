@@ -10,7 +10,8 @@
         ("gnu-cn"   . "http://elpa.emacs-china.org/gnu/")))
 
 ;; Load theme
-(load-theme 'doom-gruvbox t)
+(load-theme 'doom-nord t)
+;; (load-theme 'doom-gruvbox t)
 
 ;; Set default frame fullscreen
 ;; https://emacs.stackexchange.com/questions/2999/how-to-maximize-my-emacs-frame-on-start-up

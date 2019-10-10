@@ -15,7 +15,7 @@
        :completion
        company           ; the ultimate code completion backend
        ;;helm              ; the *other* search engine for love and life
-       ;;ido              ; the other *other* search engine...
+       ;;ido               ; the other *other* search engine...
        ivy               ; a search engine for love and life
 
        :ui
@@ -46,6 +46,7 @@
        :editor
        (evil +everywhere); come to the dark side, we have cookies
        file-templates    ; auto-snippets for empty files
+       ;;god               ; run Emacs commands without modifier keys
        fold              ; (nigh) universal code folding
        ;;(format +onsave)  ; automated prettiness
        ;;lispy             ; vim for lisp, for people who dont like vim
@@ -118,6 +119,7 @@
        ;;julia             ; a better, faster MATLAB
        ;;kotlin            ; a better, slicker Java(Script)
        latex             ; writing papers in Emacs has never been so fun
+       ;;lean
        ;;ledger            ; an accounting system in Emacs
        ;;lua               ; one-based indices? one-based indices
        markdown          ; writing docs for people to ignore
@@ -125,10 +127,11 @@
        ;;nix               ; I hereby declare "nix geht mehr!"
        ;;ocaml             ; an objective camel
        (org              ; organize your plain life in plain text
-        +dragndrop       ; file drag & drop support
-        +ipython         ; ipython support for babel
-        +pandoc          ; pandoc integration into org's exporter
-        +present)        ; using Emacs for presentations
+        +dragndrop       ; drag & drop files/images into org buffers
+        ;+hugo           ; use Emacs for hugo blogging
+        +ipython         ; ipython/jupyter support for babel
+        +pandoc          ; export-with-pandoc support
+        +present)        ; using org-mode for presentations
        ;;perl              ; write code no one else can comprehend
        ;;php               ; perl's insecure younger brother
        ;;plantuml          ; diagrams for confusing people more
@@ -174,17 +177,3 @@
        ;; provides a Spacemacs-inspired keybinding scheme and a smartparens
        ;; config. Use it as a reference for your own modules.
        (default +bindings +smartparens))
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   (quote
-    ("071f5702a5445970105be9456a48423a87b8b9cfa4b1f76d15699b29123fb7d8" default))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
